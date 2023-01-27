@@ -1,0 +1,73 @@
+/* Imposta lo sfondo nero chiaro */
+body {
+
+  width: 100%;
+  color: white;
+  font-family: cursive;
+  background-image: url(../img/img9.jpg);
+  background-size: cover;
+  background-position: center;
+  letter-spacing: 1px;
+}
+
+/* Centra il contenuto della pagina */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Formato del form di registrazione */
+form {
+  padding: 2em;
+  border-radius: 10px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Formato dei campi di input */
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid wheat;
+  border-radius: 10px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+
+/* Formato del bottone di registrazione */
+button {
+  width: 100%;
+  color: aliceblue;
+  background-color: #f9004d;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  font-weight: bold;
+  padding: 13px 30px;
+}
+
+button:hover {
+  background-color: transparent;
+  border: 2px solid #f9004d;
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+span {
+  color: #f9004d;
+}
+
+.lab {
+
+  letter-spacing: 5px;
+}
